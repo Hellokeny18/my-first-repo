@@ -1,5 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello World!\n");
-}
+    int A = 10;
+    while (A <15) {
+    A++;
+    printf("%d", A);
+    }
